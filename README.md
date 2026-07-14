@@ -1,58 +1,342 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<img src="docs/assets/logo/logo.png" width="120"/>
 
-## About Laravel
+# FinNest
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### Track Smart. Spend Better. Live Freely.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+A modern Personal Finance Management Platform that helps people build healthier financial habits through smart budgeting, expense tracking, financial insights, and intuitive analytics.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+![Laravel](https://img.shields.io/badge/Laravel-12-red?style=for-the-badge&logo=laravel)
+![PHP](https://img.shields.io/badge/PHP-8.3-blue?style=for-the-badge&logo=php)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Latest-blue?style=for-the-badge&logo=postgresql)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-06B6D4?style=for-the-badge&logo=tailwindcss)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-## Learning Laravel
+</div>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+# ✨ Overview
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+Managing personal finances should not feel complicated.
 
-## Agentic Development
+**FinNest** is designed as a modern financial companion that empowers users to understand where their money goes, build better financial habits, monitor spending patterns, and achieve financial goals through a beautiful and intelligent experience.
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+Rather than being just another expense tracker, FinNest provides meaningful insights that help users make smarter financial decisions every day.
 
-```bash
-composer require laravel/boost --dev
+---
 
-php artisan boost:install
+# 🚀 Vision
+
+To become a modern and intelligent personal finance platform that helps people achieve financial clarity, healthier financial habits, and long-term financial stability.
+
+---
+
+# 🎯 Mission
+
+- Simplify personal financial management.
+- Encourage healthy spending habits.
+- Help users achieve financial goals.
+- Provide actionable financial insights.
+- Deliver a premium user experience across all devices.
+
+---
+
+# 👥 Target Users
+
+- Students
+- College Students
+- Young Professionals
+- Employees
+- Freelancers
+- Small Business Owners
+- Families
+- Anyone who wants better financial management
+
+---
+
+# ⭐ Core Features
+
+### Dashboard
+
+- Financial Overview
+- Financial Health Score
+- Recent Transactions
+- Monthly Summary
+- Spending Analytics
+- Cash Flow Overview
+
+---
+
+### Wallet Management
+
+- Multiple Wallets
+- Bank Accounts
+- Cash
+- Digital Wallets
+- Opening Balance
+
+---
+
+### Income Management
+
+- Salary
+- Freelance
+- Bonus
+- Investment
+- Scholarship
+- Others
+
+---
+
+### Expense Management
+
+- Smart Categories
+- Custom Categories
+- Transaction History
+- Search
+- Filter
+- Attach Notes
+
+---
+
+### Budget Planning
+
+- Monthly Budget
+- Weekly Budget
+- Budget Progress
+- Budget Warning
+
+---
+
+### Saving Goals
+
+- Financial Goals
+- Progress Tracking
+- Target Deadline
+- Achievement Status
+
+---
+
+### Smart Insights
+
+- Spending Trends
+- Budget Analysis
+- Saving Recommendations
+- Monthly Comparison
+- Expense Prediction
+
+---
+
+### Reports
+
+- Monthly Reports
+- Yearly Reports
+- Export PDF
+- Export Excel
+
+---
+
+### Import Data
+
+- Excel
+- CSV
+- PDF
+- Bank Statement *(Planned)*
+
+---
+
+### Personalization
+
+- Light Theme
+- Dark Theme
+- Multiple Accent Colors
+- Responsive Layout
+
+---
+
+# 💯 Financial Health Score
+
+FinNest introduces a Financial Health Score that evaluates users' financial habits based on:
+
+- Budget Discipline
+- Saving Consistency
+- Spending Behavior
+- Income Stability
+- Goal Progress
+- Financial Growth
+
+Score Range
+
+```
+95–100  Financial Master 👑
+85–94   Excellent 💎
+75–84   Good 🟢
+60–74   Fair 🟡
+40–59   Needs Improvement 🟠
+0–39    Financial Alert 🔴
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+---
 
-## Contributing
+# 🧠 Smart Warnings
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Examples:
 
-## Code of Conduct
+- Your food budget is almost exhausted.
+- Spending increased by 35% this month.
+- You have exceeded your entertainment budget.
+- Your savings goal is behind schedule.
+- Your balance is predicted to run out in 10 days.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+# 🛠 Tech Stack
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+| Layer | Technology |
+|---------|------------|
+| Backend | Laravel 12 |
+| Frontend | Blade |
+| Styling | Tailwind CSS |
+| JavaScript | Alpine.js |
+| Database | PostgreSQL |
+| Charts | ApexCharts |
+| Authentication | Laravel Breeze |
+| Authorization | Spatie Permission |
+| PDF | DomPDF |
+| Excel | Laravel Excel |
+| Testing | Pest |
+| Formatter | Laravel Pint |
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# 📱 Responsive Design
+
+FinNest is designed for
+
+- Desktop
+- Tablet
+- Mobile
+
+---
+
+# 🎨 Design Philosophy
+
+The user interface is inspired by:
+
+- Stripe
+- Linear
+- Notion
+- Apple Wallet
+- Revolut
+- Monzo
+
+Design Principles:
+
+- Modern
+- Clean
+- Premium
+- Minimal
+- Accessible
+- Responsive
+
+---
+
+# 📂 Project Structure
+
+```
+finnest/
+
+app/
+bootstrap/
+config/
+database/
+
+docs/
+
+public/
+
+resources/
+
+routes/
+
+storage/
+
+tests/
+```
+
+---
+
+# 📅 Development Roadmap
+
+- Project Planning
+- Product Documentation
+- Authentication
+- Dashboard
+- Wallet Management
+- Income Module
+- Expense Module
+- Budget Planning
+- Saving Goals
+- Financial Analytics
+- Reports
+- Smart Insights
+- Import Statement
+- Theme Customization
+- Deployment
+
+---
+
+# 📚 Documentation
+
+Complete documentation is available in the `/docs` directory.
+
+---
+
+# 🚀 Installation
+
+```bash
+git clone https://github.com/your-username/finnest.git
+
+cd finnest
+
+composer install
+
+npm install
+
+cp .env.example .env
+
+php artisan key:generate
+
+php artisan migrate
+
+npm run dev
+
+php artisan serve
+```
+
+---
+
+# 🤝 Contributing
+
+Currently under active development.
+
+Suggestions and improvements are always welcome.
+
+---
+
+# 📄 License
+
+MIT License
+
+---
+
+<div align="center">
+
+Made with ❤️ using Laravel.
+
+**FinNest — Track Smart. Spend Better. Live Freely.**
+
+</div>
